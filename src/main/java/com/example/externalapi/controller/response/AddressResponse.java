@@ -1,7 +1,7 @@
-package com.example.externalAPI.controller.response;
+package com.example.externalapi.controller.response;
 
-import com.example.externalAPI.entity.Address;
-import com.example.externalAPI.entity.AddressData;
+import com.example.externalapi.entity.Address;
+import com.example.externalapi.entity.AddressData;
 
 import java.util.ArrayList;
 import java.util.List;
