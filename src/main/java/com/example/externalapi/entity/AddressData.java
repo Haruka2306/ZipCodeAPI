@@ -1,4 +1,4 @@
-package com.example.externalAPI.entity;
+package com.example.externalapi.entity;
 
 public class AddressData {
     int zipcode;

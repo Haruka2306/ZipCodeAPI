@@ -1,4 +1,4 @@
-package com.example.externalAPI;
+package com.example.externalapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
