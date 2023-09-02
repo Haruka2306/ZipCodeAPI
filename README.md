@@ -10,3 +10,19 @@ status code：200OK
 Postman URL：```http://localhost:8080/address?zipcode=100001```<br>
 status code：200OK
 ![task10-ZipCode-400](https://github.com/Haruka2306/ZipCodeAPI/assets/137120436/2ed73e59-99d2-4c28-a891-dfead7abeb1d)
+
+★バリデーションを実装し、自作したエラーレスポンスを返す
+* zipcodeが未入力、入力されたzipcodeが不適切の場合に、400 BadRequestを返す
+
+Postman URL：```http://localhost:8080/address?zipcode=```、```http://localhost:8080/address?zipcode=abcdefg```
+
+| 項目 | レスポンス|
+| ---- | ----- |
+| HTTP status code| 400 |
+| path | /address |
+| error | Bad Request |
+| message | ZipCode entered is incorrect |
+
+![task10-zipcode-validation400-2](https://github.com/Haruka2306/ZipCodeAPI/assets/137120436/9c7029a9-01bf-4a69-a2fa-ecdf28692a20)
+
+![task10-zippcode-validation400](https://github.com/Haruka2306/ZipCodeAPI/assets/137120436/50ef1813-340f-49cb-8a05-a33b9a2f8be6)
